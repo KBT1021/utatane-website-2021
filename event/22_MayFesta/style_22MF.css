@@ -1,0 +1,260 @@
+/* 一般的なタグのスタイル */
+body{
+  text-align: center;
+  font-family: "source-sans-pro", "Helvetica", "source-han-sans-japanese", "メイリオ", "游ゴシック", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #F8FFF8;
+}
+
+article{
+  border-top: #994E62 solid 5px;
+}
+
+footer {
+  background-color: #98BF9A;
+  border-top: #994E62 solid 5px;
+  padding-top: 20px;
+}
+
+
+header{
+  background: #98BF9A;
+  border-bottom: #994E62 solid 5px;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+section{
+  margin-bottom: 40px;
+  padding: auto;
+  line-height: 1.8em;
+}
+
+div {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+
+h1{
+  font-size: 1.8em;
+}
+
+.container{
+  min-height: 100%;
+}
+
+
+
+/* カスタムIDのスタイル*/
+#top{
+  width: 90%;
+  margin:0 auto;
+}
+
+#concept{
+  border: double 5px #008000;
+  margin-bottom: 120px;
+}
+.concept-details p{
+  font-size: 0.8em;
+}
+.concept-details h3{
+  font-size: 1.2em;
+}
+
+
+#snslinks {font-size: 24pt;}
+
+#apps-select-button{
+  font-size:1.0em;
+  border-radius: 20px;
+  padding: 10px 40px;
+  display:block;
+  min-width: 300px;
+
+  background-color: #e3f5f9; 
+  border: 2px solid #89b4d8;
+  color: #000000;
+}
+
+#apps-select-button:hover{
+  font-size:1.0em;
+  border-radius: 20px;
+  padding: 10px 40px;
+  display:block;
+  min-width: 300px;
+
+  background-color: #b3e5e9; 
+  border: 2px solid #89b4d8;
+  color: #000000;
+}
+
+/* カスタムクラスのスタイル　*/
+.title p{
+  font-size: 1.5em;
+  line-height: 1.0;
+}
+.top-button1{
+  font-size:1.2em;
+  border-radius: 10px;
+  padding: 30px 2px;
+  display:block;
+  min-width: 200px;
+  max-width:100%;
+
+  background-color: #e0ffff; 
+  border: 2px solid #00bfff;
+  color: #000000;
+}
+
+.top-button2{
+  font-size:1.2em;
+  border-radius: 10px;
+  padding: 30px 2px;
+  min-width: 200px;
+  max-width:100%;
+  display:block;
+  background-color: #c8fbc8; 
+  border: 2px solid #adff2f;
+  color: #000000;
+}
+
+.date-and-place{
+  font-size: 1em;
+}
+
+.apps-content .apps-content-sp{
+  margin: auto;
+}
+.apps-content img{
+  width: 150px;
+  height: 150px;
+}
+
+.apps-content td{
+  padding: 40px 20px;
+}
+
+.apps-content-sp img{
+  width: 150px;
+  height: 150px;
+}
+
+.apps-content-sp td{
+  padding: 20px 20px;
+}
+
+.apps-title{
+  font-size: 1.5em;
+}
+
+.apps-credit{
+  text-align: right; 
+  font-size:0.8em;
+}
+
+.apps-message{
+  font-size:1.0em;
+}
+
+.apps-content .apps-content-sp{
+  margin: 0 auto;
+}
+
+
+.back-to-top-button{
+  position:fixed;
+  background-color:#008000;
+  color: #ffffff;
+  right: 25px;
+  bottom: 25px;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.article-bottom {
+  background: url(./figures/stripe_bottom.png);
+  background-repeat: repeat-x;
+  background-position: bottom left;
+  background-size: 160px auto;
+  height: 40px;
+}
+
+.article-top {
+  background: url(./figures/stripe_top.png);
+  background-repeat: repeat-x;
+  background-position: top left;
+  background-size: 150px auto;
+  height: 40px;
+}
+
+.youtube {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+.youtube iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.black-link{
+  color:black;
+  text-decoration: none;
+}
+.black-link:hover{
+  color:blue;
+  text-decoration: none;
+}
+
+@media screen and (min-width:0px){
+  body{font-size: 11pt;}
+  .utatane_icon img {
+    width: 80px;
+    height: 80px;
+  }
+  footer {padding-bottom: 50px;}
+}
+
+@media screen and (max-width:544px){
+  .youtube-schedule{
+    width:80%;
+  }
+  .kf-gp-pc{
+    display:none;
+  }
+  .apps-content{
+    display:none;
+  }
+}
+
+@media screen and (min-width:544px){
+  body{font-size: 14pt;}
+  .youtube-schedule{
+    width:120%;
+  }
+  .kf-gp-sp{
+    display:none;
+  }
+  .apps-content-sp{
+    display:none;
+  }
+}
+
+@media screen and (max-width:767px){
+  .header_pc {display: none;}
+}
+
+@media screen and (min-width:768px){
+  body{font-size: 16pt;}
+  footer {padding-bottom: 70px;}
+  .header_sp {display: none;}
+  .utatane_icon img {
+    width: 80px;
+    height: 80px;
+  }
+}
