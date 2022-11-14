@@ -225,6 +225,10 @@ iframe {
     text-decoration: none;
   }
 
+  .apps-photo{
+    width:80vw;
+  }
+
   #introduction{
     width: 100%;
     margin:auto;

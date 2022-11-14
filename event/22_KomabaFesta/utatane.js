@@ -1,9 +1,14 @@
 function selectApps(){
   link_table = new Array(	// リンク先の登録
-    "https://script.google.com/macros/s/AKfycbz-uO_l2VYsOfR-RyAt2c2qtz8D2eB1lApdEwRSTk-E1up66PXwNIKq4DcmNEU2kYRjYA/exec", //ねじ曲げ
-    "https://utatane.info/apps/MF22/science_patchwork/index.html", //科学のパッチワーク
-    "https://utatane.info/apps/MF22/science_creator/index.html", //科学をつくる
-    "https://utatane.info/apps/MF22/miscom_ranking/index.html", //すれ違いランキング
+    "communication.html#witness",//人物推測ゲーム
+    "communication.html#poem",//ことばをかたどる
+    "communication.html#dialog",//対話リミット
+    "langage_and_media.html#shopping",//買い物のものさし
+    "langage_and_media.html#idioms",//らくわく慣用句
+    "langage_and_media.html#language",//みるみるオノマトペ
+    "learning_and_shikake.html#shikake",//「しかけ」をつくる
+    "science_cognition.html#decision",//意思決定解析機
+    "science_cognition.html#expert"//「専門家」を再考する
   );
   
   let t_rnd = Math.floor(Math.random()*link_table.length);
