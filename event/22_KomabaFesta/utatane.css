@@ -54,16 +54,23 @@ iframe {
   }
   
   
-  
   /* カスタムIDのスタイル*/
   #top{
     width: 90%;
+  }
+
+  .booth-details{
+    margin: auto;
+    border: double 5px #008000;
+    margin-bottom: 50px;
   }
   
   #concept{
     border: double 5px #008000;
     margin-bottom: 120px;
   }
+
+
   .concept-details p{
     font-size: 0.8em;
   }
@@ -225,10 +232,6 @@ iframe {
     text-decoration: none;
   }
 
-  .apps-photo{
-    width:30vw;
-  }
-
   #introduction{
     width: 100%;
     margin:auto;
@@ -316,6 +319,12 @@ iframe {
     .apps-content{
       display:none;
     }
+    .apps-photo{
+      width:95vw;
+    }  
+    .booth-details{
+      width: 100%;
+    }
   }
   
   @media screen and (min-width:544px){
@@ -328,11 +337,17 @@ iframe {
     }
     .apps-content-sp{
       display:none;
-    }
+    } 
   }
   
   @media screen and (max-width:767px){
     .header_pc {display: none;}
+    .apps-photo{
+      width:60vw;
+    } 
+    .booth-details{
+      width: 100%;
+    }
   }
   
   @media screen and (min-width:768px){
@@ -342,5 +357,11 @@ iframe {
     .utatane_icon img {
       width: 80px;
       height: 80px;
+    }
+    .apps-photo{
+      width:30vw;
+    } 
+    .booth-details{
+      width: 80%;
     }
   }
