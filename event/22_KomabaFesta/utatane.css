@@ -321,6 +321,8 @@ iframe {
     }
     .apps-photo{
       width:95vw;
+      height:260px;
+      object-fit: cover;
     }  
     .booth-details{
       width: 100%;
@@ -343,7 +345,9 @@ iframe {
   @media screen and (max-width:767px){
     .header_pc {display: none;}
     .apps-photo{
-      width:60vw;
+      width:45vw;
+      height:260px;
+      object-fit: cover;
     } 
     .booth-details{
       width: 100%;
@@ -360,6 +364,8 @@ iframe {
     }
     .apps-photo{
       width:30vw;
+      height:260px;
+      object-fit: cover;
     } 
     .booth-details{
       width: 80%;

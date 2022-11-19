@@ -2,7 +2,7 @@ function selectApps(){
   link_table = new Array(	// リンク先の登録
     "communication.html#witness",//人物推測ゲーム
     "communication.html#poem",//ことばをかたどる
-    "communication.html#dialog",//対話リミット
+    "communication.html#dialog",//対話リミットゲーム
     "language_and_media.html#shopping",//買い物のものさし
     "language_and_media.html#idioms",//らくわく慣用句
     "language_and_media.html#language",//みるみるオノマトペ
